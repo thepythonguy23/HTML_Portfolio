@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300&display=swap');
+
+body{
+  height: 172vh;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  display: flex;
+  flex-direction: row;
+  height: 630px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.header-button{
+  width: 750px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.page-header{
+  font-size: 60px;
+  font-family: "Montseratt";
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.apple-dnld{
+  height: 50px;
+  width: 170px;
+  text-align: center;
+  border: 3px white solid;
+  background-color: white;
+  font-family: "Montseratt";
+  font-size: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 3ms;
+  margin-right: 10px;
+}
+
+.apple-dnld:hover{
+  background-color: rgb(219, 214, 214);
+  border: none;
+}
+
+.google-dnld{
+  height: 50px;
+  width: 170px;
+  text-align: center;
+  color: white;
+  border: 1px white solid;
+  font-family: "Montseratt";
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.30ms;
+}
+
+.google-dnld:hover{
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.image-box{
+  margin-right: 400px;
+  margin-top: 40px;
+
+}
+
+.features-section{
+  height: 200px;
+  margin-top: 680px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 250px;
+}
+
+.use{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montseratt";
+}
+
+.use-header{
+  font-size: 40px;
+  margin: 0;
+}
+
+.feature-para{
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.bi-check2-circle{
+  background-color: rgb(220, 213, 213);
+  height: 50px;
+  width: 60px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: -30px;
+}
+
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  background-color: rgb(251, 248, 248);
+  font-family: "Montseratt";
+}
+
+.testimonial h1 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  width: 60%;
+  text-align: center;
+}
+
+.pebbles {
+  margin-top: 30px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonial p {
+  font-size: 15px;
+}
+
+.tech-comps{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-comp-images {
+  margin: 80px;
+  height: 10%;
+
+}
+
+.pricing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-para{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.head-para h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 56px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.head-para p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(33, 37, 41, 0.75);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.plans_pricing{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chihuahua-plan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.chi-header{
+  background-color: rgb(238, 234, 234);
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  margin-top: -69px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px rgb(187, 184, 184) solid;
+  border-bottom: none;
+}
+
+.chi-header h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.plan-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px rgb(187, 184, 184) solid;
+  width: 100%;
+  height: 240px;
+}
+
+.plan-details h1{
+  margin: 0;
+  margin-top: -60px;
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.plan-details > h1 > small{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  color: rgb(182, 176, 176);
+  text-align: center;
+}
+
+.plan-details ul{
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.plan-details li{
+  list-style: none;
+  margin: 7px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: 400;
+  color: rgb(56, 54, 54);
+}
+
+
+.sign-upbutton{
+  padding: 0;
+  margin-top: -60px;
+  height: 45px;
+  width: 90%;
+  border-radius: 10px;
+  border: 1px black solid;
+  background-color: transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+.sign-upbutton:hover{
+  background-color: black;
+  color: white;
+}
+
+.get-startbutton{
+  padding: 0;
+  margin-top: -60px;
+  height: 45px;
+  width: 90%;
+  border-radius: 10px;
+  border: 1px black solid;
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+.get-startbutton:hover{
+  background-color: rgb(59, 58, 58);
+}
+
+
+.mastiff-plan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.mas-header{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  margin-top: -69px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px rgb(187, 184, 184) solid;
+  border-bottom: none;
+}
+
+.mas-header h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.contact-usbutton{
+  padding: 0;
+  margin-top: -60px;
+  height: 45px;
+  width: 90%;
+  border-radius: 10px;
+  border: 1px black solid;
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+.contact-usbutton:hover{
+  background-color: rgb(59, 58, 58);
+}
+
+.last-section{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  height: 350px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.grid-boxes{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 100px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.grid-boxes p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.copy{
+  height: 16px;
+}
+
+.grid-boxes h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.grid-boxes ul{
+  padding: 0;
+  margin: 0;
+}
+
+.grid-boxes li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin: 10px;
+  font-size: larger;
+}
+
+.grid-boxes a{
+  text-decoration: none;
+  color: black;
+}
